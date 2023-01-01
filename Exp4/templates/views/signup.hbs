@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    {{>nav}}
+    <form action="" method="" id="signupForm">
+
+        <div class="container">
+            <p class="errorMessage" id="signupError"></p>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+            <label for="uemail"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="uemail" id="uemail" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+            <label for="psw"><b>Re-Enter Password</b></label>
+            <input type="password" placeholder="Enter Password" name="rpsw" id="rpsw" required>
+
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    <script src="/js/userSignup.js"> </script>
+</body>
+</html>
