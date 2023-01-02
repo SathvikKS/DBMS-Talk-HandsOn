@@ -8,6 +8,7 @@
     "exp2": "nodemon Exp2/src/app.js -e js,hbs",
     "exp3": "nodemon Exp3/src/app.js -e js,hbs",
     "exp4": "nodemon -r dotenv/config Exp4/src/app.js -e js,hbs",
+    "exp5": "nodemon Exp5/src/app.js -e js,hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
